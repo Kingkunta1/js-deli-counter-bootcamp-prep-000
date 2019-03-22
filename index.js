@@ -22,18 +22,12 @@ if(current.length === 0)
 
 //var curr= [ "bob", "jill", "bob", "jill"]
 function currentLine(current){
-if(current.length===0){  
+  if(current.length===0){  
    return "The line is currently empty."
 }else{  
   var shop = 'The line is currently:'
     for( var i=0;i<current.length;i++){
-      
+    //{`${i+1} ${current[i]}` }  
     }
-    
-    
-     //{`${i+1} ${current[i]}` }
-    
-    
-    
 }
-  }
+}

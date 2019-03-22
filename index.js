@@ -27,7 +27,10 @@ function currentLine(current){
   }else{  
     var shop = 'The line is currently:'
     for( var i=0;i<current.length;i++){
-      shop += `${i+1} ${current[i]}`
+      shop += ` ${i+1} ${current[i]}`
+      if( i < current.length - 1){
+       shop +=','  
+      }
    
     } 
     return shop

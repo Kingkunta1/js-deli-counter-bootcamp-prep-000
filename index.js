@@ -26,7 +26,12 @@ if(current.length===0){
    return "The line is currently empty."}
      
 else{  
-    for( var i=0;i<current.length;i++)
+  var shop = ''
+    for( var i=0;i<current.length;i++){
+      
+    }
+    
+    
      //{`${i+1} ${current[i]}` }
     
     //how to iterate through each element?
